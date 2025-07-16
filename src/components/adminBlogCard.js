@@ -26,7 +26,7 @@ function AdminBlogCard(id, baslik, yazar, ozet, detay, onDelete) {
                     background: "#06024f",
                     color: "white",
                     fontSize: "13px",
-                    padding: "3px"
+                    padding: "4px"
                 }}
                     onClick={() => setShowDetail(!showDetail)}>
                     {showDetail ? "detayı gizle" : "detayı göster"}</button>
